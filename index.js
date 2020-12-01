@@ -1,8 +1,15 @@
+//external downloads and connecting to Generate Markdown
+
+//
 const inquirer = require("inquirer");
 var fs = require("fs");
+
+//Axios - Promise based HTTP client for the browser and node.js
 var axios = require("axios");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+
+//These questions will appear once you run this file in terminal with node
 const questions = [
   {
     type: "input",
@@ -68,6 +75,7 @@ const questions = [
     choices: ["MIT", "GNU GPLv3", "Unlicense", "None"],
   },
 ];
+
 
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
