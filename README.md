@@ -1,40 +1,45 @@
-# README Generator
+# Readme test
 
-This is my README Generator - It will allow for you to run the application through the terminal which will produce a clean README file
-
+    
+undefined
+https://github.com/pboerma/readmegenerator
+Generate a README file for you project
 ## Table of Contents
-
 * [Installation](#installation)
 * [Usage](#usage)
-* [Tests] (#tests)
-* [Questions] (#questions)
 * [Credits](#credits)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+
 
 ## Installation
+To install the necessary dependencies, run Used NPM on the commnand line.
 
-To install the necessary dependencies - run npm install (inquirer and axios)
 
 ## Usage
+To build READMEs
 
-Run node index.js in a terminal in the command line and begin answering the questions
+
+## License
+MIT
+
+
+## Contributing
+Piet
+
 
 ## Tests
-
-You can test the project by running npm test
+To test the project, run npm test on the command line.
+![Screenshot]("screenshot.png")
 
 ## Final Product
+A video demo of my project: Video demo coming soon.
 
-
-## Technologies
-
-JavaScript
-Node.js
-JSON
 
 ## Questions
+If you have any questions please email me at boerma.pieter@gmail.com.
 
-If you have any questions, email me at boerma.pieter@gmail.com
 
 ## Credits
-
-PB - Coding bootcamp at UofT
+Piet
